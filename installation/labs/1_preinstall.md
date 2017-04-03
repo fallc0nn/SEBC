@@ -24,6 +24,16 @@ UUID=3ed41454-00c8-4803-bf61-2ee88aa54dbf / xfs defaults 0 0
 
 # mount |tail -1
 /dev/xvdb1 on /hadoopdisks/disk0 type xfs (rw,noatime,attr2,inode64,noquota)
+
+# df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/xvda2       40G  6.9G   34G  18% /
+devtmpfs        7.3G     0  7.3G   0% /dev
+tmpfs           7.2G     0  7.2G   0% /dev/shm
+tmpfs           7.2G   17M  7.2G   1% /run
+tmpfs           7.2G     0  7.2G   0% /sys/fs/cgroup
+tmpfs           1.5G     0  1.5G   0% /run/user/1000
+/dev/xvdb1       40G   33M   40G   1% /hadoopdisks/disk0
 ```
 
 3.
