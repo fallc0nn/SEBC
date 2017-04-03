@@ -21,6 +21,9 @@ fs.file-max = 654401
 #
 UUID=3ed41454-00c8-4803-bf61-2ee88aa54dbf / xfs defaults 0 0
 /dev/xvdb1 /hadoopdisks/disk0 xfs defaults,noatime 0 0
+
+# mount |tail -1
+/dev/xvdb1 on /hadoopdisks/disk0 type xfs (rw,noatime,attr2,inode64,noquota)
 ```
 
 3.
