@@ -118,8 +118,9 @@ MariaDB [(none)]> show master status;
 1 row in set (0.00 sec)
 
 MariaDB [(none)]> show slave status;
-(Continue...)
-
+(...)
+| Waiting for master to send event | hadoop00.ec2.internal | replication_user |        3306 |            10 | master1-bin.000003 |                 329 | master2-relay-bin.000002 |           539 | master1-bin.000003    | Yes              | Yes               |                 |                     |                    |                        |                         |                             |          0 |            |            0 |                 329 |             839 | None            |                |             0 | No                 |                    |                    |                 |                   |                |                     0 | No                            |             0 |               |              0 |                |                             |                1 |                |                    | No         | 0-2-131     |                         |                             | conservative  |
+(...)
 ```
 
 
