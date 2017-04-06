@@ -1,4 +1,4 @@
-1. Explain any adjustments you make in resources/labs/0_YARNCalcs.md
+Explain any adjustments you make in resources/labs/0_YARNCalcs.md
 
 ```
 8GB RAM is more than enough for OS non-cloudera-hadoop-ecosystem-services, leaving more than 90% for our cluster without impacting OS.
