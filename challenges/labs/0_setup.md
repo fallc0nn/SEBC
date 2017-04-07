@@ -39,11 +39,12 @@ repolist: 14,281
 ```
 
 Other machines:
-UtilEdge: `ip-172-31-14-251.ec2.internal`
-Manager1: `ip-172-31-6-207.ec2.internal`
-Manager2: `ip-172-31-0-109.ec2.internal`
-Worker1:  `ip-172-31-0-73.ec2.internal`
-Worker2:  `ip-172-31-3-249.ec2.internal`
+
+* UtilEdge: `ip-172-31-14-251.ec2.internal`   54.164.13.128
+* Manager1: `ip-172-31-6-207.ec2.internal`    54.165.239.2
+* Manager2: `ip-172-31-0-109.ec2.internal`    52.90.232.50
+* Worker1:  `ip-172-31-0-73.ec2.internal`     54.89.170.56
+* Worker2:  `ip-172-31-3-249.ec2.internal`    54.87.141.95
 
 ```
 [root@ip-172-31-14-251 ~]# for host in ip-172-31-14-251.ec2.internal ip-172-31-6-207.ec2.internal \
