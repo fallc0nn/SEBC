@@ -15,7 +15,7 @@ drwxr-xr-x   - hdfs   supergroup          0 2017-04-13 12:02 /user/ronaldo
 * The output from the CM API call `../api/v14/hosts`
 
 ```
-[root@util ~]# curl -X GET -H "Content-Type: application/json" -u admin:admin http://mas2.internal:7180/api/v14/hosts
+[root@util ~]# curl -u admin:admin http://mas2.internal:7180/api/v14/hosts
 {
   "items" : [ {
     "hostId" : "79f26d42-913a-4892-94db-8de1fb2be75e",
