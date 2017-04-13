@@ -19,6 +19,7 @@ drwxr-xr-x. 77 root root 8.0K Apr 13 11:10 ..
 ```
 
 * Use the scm_prepare_database.sh script to write your db.properties file
+
   * List the full command line in `2_cm.md`
 
 ```
